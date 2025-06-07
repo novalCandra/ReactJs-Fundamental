@@ -1,8 +1,8 @@
 import React from 'react'
-function Judul() {
+function Judul(props) {
   return (
     <h2>
-        Ini adalah Components Pertama saya
+        {props.name}
     </h2>
   )
 }
