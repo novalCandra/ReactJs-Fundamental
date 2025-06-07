@@ -1,18 +1,18 @@
 import React from 'react'
 
-function Paragraf() {
-  const ctx = 'ini adalah Components Kedua ';
-  const ctxa = ['list array one', 'list array two', 'list array three'];
+function Paragraf(props) {
   return (
     <>
-      <p>
-        {ctx}
+    <h3>{props.title}</h3>
+    <small>Nama :{props.nama}, <br /> Hobi : {props.hobi.join(",")}</small>
+      {/* <p>
+        {props.text}
       </p>
       <p>
         {
-          ctxa.map(listctx => <p>{listctx}</p>)
+          props.list.map(props => <p>{props}</p>)
         }
-      </p>
+      </p> */}
     </>
   )
 }
