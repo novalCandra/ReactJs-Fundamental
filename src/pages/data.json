@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Mahasiswa",
+        "nama" : "Ucup",
+        "hobi" : ["ngoding", "sleep"]
+    },    
+    {
+        "title" : "Mahasiswa",
+        "nama" : "Udin",
+        "hobi" : ["ngoding", "sleep", "Matematika"]
+    },    
+    {
+        "title" : "Mahasiswa",
+        "nama" : "Surotong",
+        "hobi" : ["ngoding", "sleep", "Desain"]
+    }
+]
